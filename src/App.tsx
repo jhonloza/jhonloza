@@ -7,6 +7,11 @@ import proy1 from './assets/img/proy1.png';
 import proy2 from './assets/img/proy2.png';
 import proy3 from './assets/img/proy3.png';
 import jhonlozac from './assets/img/jhon_loza_cuadro.jpg';
+import softmovil from './assets/img/softmovil.jpg';
+import softweb from './assets/img/softweb.jpg';
+import softpc from './assets/img/softpc.jpg';
+import trabajar from './assets/img/trabajar.jpg';
+
 
 interface AppProps {}
 
@@ -65,21 +70,21 @@ function App({}: AppProps) {
           <div className="col s12 m4 l4 xl4 seccion1 center">
             <h4>Software de Escritorio</h4>
             <br />
-            <img src="http://riodevops.com/web/image/1523/computador-todo-en-uno-lenovo-aio-c360-19022-MCO20165595628_092014-O-300x300.jpg" width="55%"/>
+            <img src={softpc} width="55%"/>
             <br />
             <p className="parrafo1">Software para empresas o negocios personales. Usamos las mejores tecnologías de desarrollo para realizar un excelente producto.</p>
           </div>
           <div className="col s12 m4 l4 xl4 seccion2 center">
             <h4>Software Web</h4>
             <br />
-            <img src="http://riodevops.com/web/image/1524/descargar.jfif" width="55%"/>
+            <img src={softweb} width="55%"/>
             <br />
             <p className="parrafo1">Sitios webs interactivos, seguros y adaptables para que se pueden visualizar correctamente en smartphones, tabletas o computadoras.</p>
           </div>
           <div className="col s12 m4 l4 xl4 seccion3 center">
             <h4>Software Móvil</h4>
             <br />
-            <img src="http://riodevops.com/web/image/1526/movil.jpg" width="50%"/>
+            <img src={softmovil} width="50%"/>
             <br />
             <br />
             <p className="parrafo1">Diseñamos y desarrollamos aplicaciones móviles nativas o híbridas compatibles en todos los dispositivos: iPhone, iPad y Smartphones.</p>
@@ -118,14 +123,14 @@ function App({}: AppProps) {
           <div></div>
           <div className="row center">
             <div className="col s12 m6 l6 xl6 sec-img1">
-              <img src="https://emprendedoresnews.com/wp-content/uploads/2016/01/trabajar.jpg" className="imagen1"/>
+              <img src={trabajar} className="imagen1"/>
             </div>
             <div className="col s12 m6 l6 xl6">
               <h3>Sobre mi trabajo</h3>
               <p className="parrafo2">Realizo el trabajo que necesites para la plataforma que mas se adapte para tu negocio, con experiencia en los lenguajes de programacion "PHP, C++, C#, Java, Python, Javascript y dart" asi como frameworks adjuntos como "Node, React, Flutter, jQuery y mas" de igual manera el manejo de bases de datos relacionales y no relacionales.</p>
             </div>
             <div className="col s12 m6 l6 xl6 sec-img2">
-              <img src="https://emprendedoresnews.com/wp-content/uploads/2016/01/trabajar.jpg" className="imagen2"/>
+              <img src={trabajar} className="imagen2"/>
             </div>
           </div>
         </div>
