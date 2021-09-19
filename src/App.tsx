@@ -53,9 +53,10 @@ function App({}: AppProps) {
         <section className="banner">
           <video muted autoPlay loop src="https://i.imgur.com/294juyO.mp4" className="video-section"></video>
           <div className="banner-section">
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
+            <div>&nbsp;</div>
             <div className="banner-content">
-            <div>&nbsp;</div>
-            <div>&nbsp;</div>
             <h2><b className="banner-letras sombra-letra"> Buscas soluciones web o movil</b></h2>
             <h4><b className="banner-letras">Desarrolla tus aplicaciones web y/o móviles de forma sencilla, llamativa y multifuncional</b></h4>
             <h4><b className="banner-letras">Tus proyectos a precios accesibles</b></h4>
