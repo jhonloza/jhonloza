@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import 'materialize-css/dist/css/materialize.min.css';
 import lenguajes from './assets/img/lenguajes.png';
+import proy1 from './assets/img/proy1.png';
+import proy2 from './assets/img/proy2.png';
+import proy3 from './assets/img/proy3.png';
 import jhonlozac from './assets/img/jhon_loza_cuadro.jpg';
 
 interface AppProps {}
@@ -43,19 +46,19 @@ function App({}: AppProps) {
       </ul>
       <div className="col s12 m12 l12 xl12" id="inicio">
         <section className="banner">
-          <video muted autoPlay loop src="https://imgur.com/h70nk3O.mp4" className="video-section"></video>
+          <video muted autoPlay loop src="https://i.imgur.com/294juyO.mp4" className="video-section"></video>
           <div className="banner-section">
             <div className="banner-content">
-            <h2>Buscas soluciones web o movil</h2>
-            <h4>Desarrolla tus aplicaciones web y/o móviles de forma sencilla, llamativa y multifuncional</h4>
-            <h4>Tus proyectos a precios accesibles</h4>
+            <h2><b className="banner-letras sombra-letra"> Buscas soluciones web o movil</b></h2>
+            <h4><b className="banner-letras">Desarrolla tus aplicaciones web y/o móviles de forma sencilla, llamativa y multifuncional</b></h4>
+            <h4><b className="banner-letras">Tus proyectos a precios accesibles</b></h4>
             </div>
           </div>
         </section>
       </div>
       <div className="col s12 m12 l12 xl12 center servicios" id="servicios-mi">
         <h1>Nuestro servicio</h1>
-        <h5>Ofrecemos soluciones rápidas y económicas para que puedas unirte al mundo online.</h5>
+        <h5>Ofrezco soluciones rápidas y económicas para que puedas unirte al mundo online.</h5>
         <h5>Exprésanos tu idea y la haremos realidad por ti para la plataforma que desees incursionar.</h5>
         <br />
         <div className="row s12 m12 l12 xl12 center especialidades">
@@ -128,9 +131,90 @@ function App({}: AppProps) {
         </div>
       </div>
       <div className="row s12 m12 l12 xl12 center">
-
         
+        <h2 id="galeria-proy">Mi experiencia como desarrolador</h2>
+        <h4>Descubra mis trabajos publicados en linea a travez de la galeria</h4>
+        {/* Card Pagina 1 */}
+        <div className="col s12 m6 l3 xl3">
+          <div className="card">
+            <div className="card-image ">
+              <a href="https://uvirtual.unach.edu.ec/ifth/" target="_blank">
+                <img src={proy1} className="imagen-galeria"/>
+              </a>
+            </div>
+            <div className="card-stacked">
+              <div className="card-content">
+                <h5>Unach -IFTH</h5>
+                <p>Pagina elaborada con .NET para la gestion de estudiantes con beneficios en la UNACH</p>
+              </div>
+              <div className="card-action">
+                <a href="https://uvirtual.unach.edu.ec/ifth/" target="_blank">Revisa la pagina aqui.</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        {/* Card Pagina 2 */}
+        <div className="col s12 m6 l3 xl3">
+          <div className="card">
+            <div className="card-image ">
+              <a href="http://riodevops.com/" target="_blank">
+                <img src={proy2} className="imagen-galeria"/>
+              </a>
+            </div>
+            <div className="card-stacked">
+              <div className="card-content">
+                <h5>Rio-Dev-Ops</h5>
+                <p>Pagina elaborada con Python y Odoo para la gestion de la micro empresa en la ciudad de riobamba.</p>
+              </div>
+              <div className="card-action">
+              <a href="http://riodevops.com/" target="_blank">Revisa la pagina aqui.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Card Pagina 3 */}
+        <div className="col s12 m6 l3 xl3">
+          <div className="card">
+            <div className="card-image ">
+              <a href="http://kilariwow.ddns.net/" target="_blank">
+                <img src={proy3} className="imagen-galeria"/>
+              </a>
+            </div>
+            <div className="card-stacked">
+              <div className="card-content">
+                <h5>Kilari-WoW Project</h5>
+                <p>Pagina elaborada en Laravel para administracion y publicacion de un servidor de videojuegos publico.</p>
+              </div>
+              <div className="card-action">
+              <a href="http://kilariwow.ddns.net/" target="_blank">Revisa la pagina aqui.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Card Pagina 4 */}{/*
+        <div className="col s12 m6 l3 xl3">
+          <div className="card">
+            <div className="card-image ">
+              <a href="http://riodevops.com/" target="_blank">
+                <img src={proy2} className="imagen-galeria"/>
+              </a>
+            </div>
+            <div className="card-stacked">
+              <div className="card-content">
+                <h5>Rio-Dev-Ops</h5>
+                <p>Pagina elaborada con Python y Odoo para la gestion de la micro empresa en la ciudad de riobamba.</p>
+              </div>
+              <div className="card-action">
+              <a href="http://riodevops.com/" target="_blank">Revisa la pagina aqui.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        */}
+        
       </div>
     </div>
   );

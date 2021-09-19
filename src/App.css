@@ -17,7 +17,7 @@ body{
   width: 100%;
 }
 .parrafo1{
-  padding: 0px 5vw;
+  padding: 0px 2vw;
   text-align: justify;
 }
 .foto-perfil{
@@ -43,14 +43,14 @@ body{
 	object-fit: cover;
 	width: 100%;
 	height: 100vh;
-  opacity: 0.9;;
+  opacity: 0.5;
 }
 .banner{
 	height: 100vh;
 }
 .banner:after{
 	content: "";
-	background-color: #3e3e3e;
+	background-color: #1f1d1d;
 	left: 0;
 	right: 0;
 	top: 0;
@@ -76,6 +76,7 @@ body{
 	top: 50%;
 	transform: translateY(-55%);
 	z-index: 9;
+  box-shadow: 3px 1px 3px 3px #000;
 }
 
 .banner-content p {
@@ -112,7 +113,9 @@ ul.slider{
   position: relative;
   width: 100%;
 }
-
+.imagen-galeria{
+  width: 50%;
+}
 ul.slider li {
     position: absolute;
     left: 0px;
@@ -157,6 +160,10 @@ ul.slider li:target {
   height: 20px;
   font-size: 20px;
   border-radius: 100%;
+}
+.banner-letras{
+  color: #fff;
+  text-shadow: 3px 3px #000;
 }
 /*=====  SLIDESHOW ======*/
 
